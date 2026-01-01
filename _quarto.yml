@@ -3,13 +3,13 @@ project:
   output-dir: docs
 
 # Meta
-description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
-author-meta: "Dr. Gang He"
+description-meta: "Tales Mançano Academic Website"
+author-meta: "Tales Mançano"
 
 website:
-  title: "Quarto Academic"
-  image: "https://quarto.org/quarto.png"
-  description: "Quarto Academic Website Template adapted by Dr. Gang He"
+  title: "Tales Mançano"
+  image: ""
+  description: "Tales Mançano Academic Website"
  
   navbar:
     background: light  # You can change the background color here
@@ -19,18 +19,16 @@ website:
 #        href: index.qmd
       - text: About
         menu:
-          - text: News
-            href: posts.qmd#category=news
-          - text: Events
-            href: posts.qmd#category=event      
+          - text: Posts
+            href: posts.qmd#category=posts
+          - text: Working Papers
+            href: posts.qmd#category=papars      
           - text: Contact
             href: contact.qmd             
       - text: Research
         menu:
           - text: List of Publications
             href: publications.qmd
-          - text: Selected Papers
-            href: posts.qmd#category=paper
           - text: Grants
             href: projects.qmd                                
       - text: Teaching # Comment the Teaching part out to remove the Teaching page
@@ -58,7 +56,7 @@ website:
   page-navigation: true
   
   page-footer: 
-    left: "[Your Name](http://www.github.com) &copy; <script>document.write(new Date().getFullYear())</script>" 
+    left: "[Tales Mançano](http://www.github.com) &copy; <script>document.write(new Date().getFullYear())</script>" 
     center: "Build on [Quart Academic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io)"
     right:  
       - icon: github
